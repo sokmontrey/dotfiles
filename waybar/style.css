@@ -1,0 +1,45 @@
+@import "../theme/theme.css";
+
+* {
+  font-family: 'JetBrains Mono Nerd Font', sans-serif;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#battery,
+#network,
+#backlight,
+#pulseaudio,
+#clock,
+#tray,
+#custom-launcher
+{
+  background: @pm-background;
+  color: @pm-foreground;
+  padding: 6px 15px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  margin: 4px;
+}
+
+#custom-launcher {
+  background: @nm-blue;
+  color: @pm-background;
+  padding: 5px 14px;
+  font-size: 10px;
+}
+
+#workspaces {
+  border-radius: 10px;
+}
+
+#workspaces button {
+  color: @br-black;
+}
+
+#workspaces button.active{
+  color: @nm-white;
+}
+

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/sokmontrey/.config/wpg/wallpapers/8.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121215",
+        "foreground": "#a6c0dd",
+        "cursor": "#a6c0dd"
+    },
+    "colors": {
+        "color0": "#121215",
+        "color1": "#525755",
+        "color2": "#A4885E",
+        "color3": "#02538E",
+        "color4": "#116BAA",
+        "color5": "#3976AA",
+        "color6": "#4A85BD",
+        "color7": "#a6c0dd",
+        "color8": "#74869a",
+        "color9": "#525755",
+        "color10": "#A4885E",
+        "color11": "#02538E",
+        "color12": "#116BAA",
+        "color13": "#3976AA",
+        "color14": "#4A85BD",
+        "color15": "#a6c0dd"
+    }
+}

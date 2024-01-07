@@ -1,0 +1,17 @@
+import = [
+  "~/.config/theme/theme.toml"
+]
+
+[window]
+padding = { x = 0, y = 5 }
+
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Propo"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Propo"
+style = "Bold"
