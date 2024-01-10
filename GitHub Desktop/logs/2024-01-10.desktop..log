@@ -1,0 +1,27 @@
+2024-01-10T22:55:06.590Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-01-10T22:55:06.618Z - info: [ui] launching: 3.3.6-linux3 (Linux 6.6.10-arch1-1)
+2024-01-10T22:55:06.619Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-01-10T22:55:06.642Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-01-10T22:55:06.743Z - info: [ui] Opt in reported.
+2024-01-10T22:55:08.638Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2024-01-10T22:55:08.640Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-01-10T22:55:08.646Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=442fbbd7-2cb5-4c28-8d41-efe7cd261200
+2024-01-10T22:55:08.647Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2024-01-10T22:55:09.254Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-01-10T22:55:09.322Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-01-10T22:55:09.438Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-01-10T22:55:24.397Z - info: [main] Received possible protocol arguments: 3
+2024-01-10T22:55:24.397Z - info: [main] Processing protocol url
+2024-01-10T22:55:24.398Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-01-10T22:55:24.402Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-01-10T22:55:24.434Z - info: [main] Received possible protocol arguments: 2
+2024-01-10T22:55:24.436Z - info: [main] Processing protocol url
+2024-01-10T22:55:25.009Z - info: [ui] [SignInStore] account resolved
+2024-01-10T22:55:25.009Z - info: [ui] [AppStore] adding account sokmontrey (Sokmontrey) to store
+2024-01-10T22:55:25.019Z - error: [ui] Error adding account 'sokmontrey'
+Error: The name org.freedesktop.secrets was not provided by any .service files
+2024-01-10T22:55:25.021Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2024-01-10T22:55:25.049Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-01-10T22:55:27.088Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-01-10T22:55:53.984Z - info: [ui] [AppStore] adding repository at /home/sokmontrey/.config to store
+2024-01-10T22:57:24.321Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
