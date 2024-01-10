@@ -1,4 +1,4 @@
-@import "../theme/theme.css";
+@import "./theme.css";
 
 * {
   font-family: 'JetBrains Mono Nerd Font', sans-serif;
@@ -17,8 +17,8 @@ window#waybar {
 #custom-launcher,
 #custom-changewall
 {
-  background: @pm-background;
-  color: @pm-foreground;
+  background: @primary-background;
+  color: @primary-foreground;
   padding: 6px 15px;
   margin-bottom: 0px;
   border-radius: 10px;
@@ -26,9 +26,10 @@ window#waybar {
 }
 
 #custom-launcher {
-  background: @nm-blue;
-  color: @pm-background;
+  background: @normal-blue;
+  color: @primary-background;
   padding: 0px 10px;
+  padding-left: 13px;
   font-size: 15px;
 }
 
@@ -37,10 +38,10 @@ window#waybar {
 }
 
 #workspaces button {
-  color: @br-black;
+  color: @bright-black;
 }
 
 #workspaces button.active{
-  color: @nm-white;
+  color: @normal-white;
 }
 
