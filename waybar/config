@@ -2,9 +2,16 @@
   "layer": "top",
   "position": "bottom",
 
-  "modules-left": ["custom/launcher", "pulseaudio", "backlight","hyprland/workspaces"],
+  "modules-left": ["custom/launcher", "custom/changewall", "hyprland/workspaces"],
   "modules-center": ["clock"],
-  "modules-right": ["network", "battery"],
+  "modules-right": ["pulseaudio", "backlight","network", "battery"],
+
+  "custom/changewall": {
+    "format": " ",
+    "on-click": "python $HOME/.config/scripts/switch_wallpaper.py random",
+    "on-scroll-up": "python $HOME/.config/scripts/switch_wallpaper.py next",
+    "on-scroll-down": "python $HOME/.config/scripts/switch_wallpaper.py prev",
+  },
 
   "custom/launcher":{
     "format": " ",

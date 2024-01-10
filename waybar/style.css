@@ -14,7 +14,8 @@ window#waybar {
 #pulseaudio,
 #clock,
 #tray,
-#custom-launcher
+#custom-launcher,
+#custom-changewall
 {
   background: @pm-background;
   color: @pm-foreground;
@@ -27,8 +28,8 @@ window#waybar {
 #custom-launcher {
   background: @nm-blue;
   color: @pm-background;
-  padding: 5px 14px;
-  font-size: 10px;
+  padding: 0px 10px;
+  font-size: 15px;
 }
 
 #workspaces {
