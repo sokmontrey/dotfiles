@@ -3,13 +3,13 @@
   "position": "bottom",
 
   "modules-left": ["custom/launcher", "pulseaudio", "backlight","hyprland/workspaces"],
-  "modules-center": [],
-  "modules-right": ["network", "clock", "battery"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "battery"],
 
   "custom/launcher":{
     "format": " ",
-    "on-click": "wofi --show drun",
-    "on-click-right": "killall wofi"
+    "on-click": "rofi -show drun",
+    "on-click-right": "killall rofi"
   },
 
   "hyprland/workspaces": {
@@ -73,7 +73,7 @@
       "default": ["", ""]
     },
     "scroll-step": 1,
-    "on-click": "pavucontrol"
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
   },
 
   "network": {
