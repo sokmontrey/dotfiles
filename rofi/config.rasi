@@ -1,9 +1,19 @@
 configuration {
-/*	modes: "window,drun,run,ssh";*/
+  modes: "drun,filebrowser";
   font: "JetBrainsMono Nerd Font Propo 12";
   show-icons: true;
   fixed-num-lines: true;
   terminal: "alacritty";
+  kb-mode-next: "Shift+Right,Alt+Tab";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
 
 /*	location: 0;*/
 /*	yoffset: 0;*/
@@ -85,7 +95,6 @@ configuration {
 /*	kb-accept-custom-alt: "Control+Shift+Return";*/
 /*	kb-accept-alt: "Shift+Return";*/
 /*	kb-delete-entry: "Shift+Delete";*/
-/*	kb-mode-next: "Shift+Right,Control+Tab";*/
 /*	kb-mode-previous: "Shift+Left,Control+ISO_Left_Tab";*/
 /*	kb-mode-complete: "Control+l";*/
 /*	kb-row-left: "Control+Page_Up";*/
@@ -141,13 +150,4 @@ configuration {
 /*	me-select-entry: "MousePrimary";*/
 /*	me-accept-entry: "MouseDPrimary";*/
 /*	me-accept-custom: "Control+MouseDPrimary";*/
-  timeout {
-      action: "kb-cancel";
-      delay:  0;
-  }
-  filebrowser {
-      directories-first: true;
-      sorting-method:    "name";
-  }
-}
 

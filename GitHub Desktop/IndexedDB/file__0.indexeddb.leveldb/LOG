@@ -1,2 +1,3 @@
-2024/01/10-17:55:06.581 105a8 Creating DB /home/sokmontrey/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2024/01/10-17:55:06.582 105a8 Reusing MANIFEST /home/sokmontrey/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/01/10-18:42:21.028 11d14 Reusing MANIFEST /home/sokmontrey/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2024/01/10-18:42:21.028 11d14 Recovering log #3
+2024/01/10-18:42:21.029 11d14 Reusing old log /home/sokmontrey/.config/GitHub Desktop/IndexedDB/file__0.indexeddb.leveldb/000003.log 

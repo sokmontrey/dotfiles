@@ -25,3 +25,7 @@ Error: The name org.freedesktop.secrets was not provided by any .service files
 2024-01-10T22:55:27.088Z - info: [ui] [Welcome] no sign in step found. ignoring...
 2024-01-10T22:55:53.984Z - info: [ui] [AppStore] adding repository at /home/sokmontrey/.config to store
 2024-01-10T22:57:24.321Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2024-01-10T23:42:21.040Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-01-10T23:42:21.347Z - info: [ui] launching: 3.3.6-linux3 (Linux 6.6.10-arch1-1)
+2024-01-10T23:42:21.347Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-01-10T23:42:21.516Z - info: [ui] Stats reported.
