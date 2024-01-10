@@ -24,3 +24,25 @@ with open(waybar_path, 'w') as f:
     f.write(waybar_css)
     f.close()
 
+# alacritty
+alacritty_path = os.path.expanduser('~/.config/alacritty/theme.toml')
+'''
+alacritty format:
+[colors.key1]
+key2 = value
+'''
+alacritty_toml = ''
+alacritty_toml += '[colors.primary]\n'
+for i in theme['primary']:
+    alacritty_toml += i + ' = "' + theme['primary'][i] + '"\n'
+alacritty_toml += '\n[colors.normal]\n'
+for i in theme['normal']:
+    alacritty_toml += i + ' = "' + theme['normal'][i] + '"\n'
+alacritty_toml += '\n[colors.bright]\n'
+for i in theme['bright']:
+    alacritty_toml += i + ' = "' + theme['bright'][i] + '"\n'
+
+with open(alacritty_path, 'w') as f:
+    f.write(alacritty_toml)
+    f.close()
+
