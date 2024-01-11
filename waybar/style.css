@@ -15,7 +15,8 @@ window#waybar {
 #clock,
 #tray,
 #custom-launcher,
-#custom-changewall
+#custom-changewall,
+#custom-changetheme
 {
   background: @primary-background;
   color: @primary-foreground;

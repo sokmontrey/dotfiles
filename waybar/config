@@ -2,9 +2,14 @@
   "layer": "top",
   "position": "bottom",
 
-  "modules-left": ["custom/launcher", "custom/changewall", "hyprland/workspaces"],
+  "modules-left": ["custom/launcher", "custom/changewall", "custom/changetheme", "hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["pulseaudio", "backlight","network", "battery"],
+
+  "custom/changetheme": {
+    "format": " ",
+    "on-click": "python $HOME/.config/scripts/get_wall_theme.py; python $HOME/.config/scripts/convert_wall_theme.py; python $HOME/.config/scripts/distribute_theme.py; pkill waybar; waybar",
+  },
 
   "custom/changewall": {
     "format": " ",

@@ -45,7 +45,7 @@ inputbar {
   width: 500px;
   children: [ "entry" ];
   background-color: transparent;
-  background-image: url("~/download/wallpaper/14.png", height);
+  background-image: url("~/download/wallpaper/gruvbox_retrocity.png", height);
 }
 
 entry {
