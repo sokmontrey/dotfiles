@@ -46,3 +46,22 @@ with open(alacritty_path, 'w') as f:
     f.write(alacritty_toml)
     f.close()
 
+# rofi
+rofi_path = os.path.expanduser('~/.config/rofi/theme.rasi')
+'''
+* {
+    key1_key2: value;
+}
+'''
+rofi_rasi = '* {\n'
+for i in theme['primary']:
+    rofi_rasi += '    primary-' + i + ': ' + theme['primary'][i] + ';\n'
+for i in theme['normal']:
+    rofi_rasi += '    normal-' + i + ': ' + theme['normal'][i] + ';\n'
+for i in theme['bright']:
+    rofi_rasi += '    bright-' + i + ': ' + theme['bright'][i] + ';\n'
+rofi_rasi += '}'
+
+with open(rofi_path, 'w') as f:
+    f.write(rofi_rasi)
+    f.close()

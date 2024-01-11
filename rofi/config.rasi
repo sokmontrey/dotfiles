@@ -15,6 +15,52 @@ configuration {
   }
 }
 
+@theme "./theme.rasi"
+
+
+// Main //
+window {
+  width:                       50%;
+  transparency:                "real";
+}
+
+mainbox {
+}
+
+
+// Inputs //
+inputbar {
+}
+entry {
+}
+
+
+// Modes //
+mode-switcher{
+}
+button {
+}
+button selected {
+}
+
+
+// Lists //
+listbox {
+}
+listview {
+}
+
+
+// Elements //
+element {
+}
+element selected.normal {
+}
+element-icon {
+}
+element-text {
+}
+
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
