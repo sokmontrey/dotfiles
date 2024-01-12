@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/sokmontrey/.config/wpg/wallpapers/gruvbox_retrocity.png",
+    "wallpaper": "/home/sokmontrey/.config/wpg/wallpapers/yellow_kyoto.jpg",
     "alpha": "100",
 
     "special": {
-        "background": "#1f1e1e",
-        "foreground": "#b1c6c0",
-        "cursor": "#b1c6c0"
+        "background": "#201812",
+        "foreground": "#f5deba",
+        "cursor": "#f5deba"
     },
     "colors": {
-        "color0": "#1f1e1e",
-        "color1": "#CF9831",
-        "color2": "#9D8F7C",
-        "color3": "#AA9261",
-        "color4": "#8EBF7D",
-        "color5": "#428487",
-        "color6": "#458588",
-        "color7": "#b1c6c0",
-        "color8": "#7b8a86",
-        "color9": "#CF9831",
-        "color10": "#9D8F7C",
-        "color11": "#AA9261",
-        "color12": "#8EBF7D",
-        "color13": "#428487",
-        "color14": "#458588",
-        "color15": "#b1c6c0"
+        "color0": "#201812",
+        "color1": "#D8A76C",
+        "color2": "#EDB677",
+        "color3": "#DEC26F",
+        "color4": "#FCC67C",
+        "color5": "#44B281",
+        "color6": "#E3B482",
+        "color7": "#f5deba",
+        "color8": "#ab9b82",
+        "color9": "#D8A76C",
+        "color10": "#EDB677",
+        "color11": "#DEC26F",
+        "color12": "#FCC67C",
+        "color13": "#44B281",
+        "color14": "#E3B482",
+        "color15": "#f5deba"
     }
 }
