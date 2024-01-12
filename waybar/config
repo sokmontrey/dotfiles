@@ -2,13 +2,22 @@
   "layer": "top",
   "position": "bottom",
 
-  "modules-left": ["custom/launcher", "custom/changewall", "custom/changetheme", "hyprland/workspaces"],
-  "modules-center": ["clock"],
+  "modules-left": ["custom/launcher", "custom/changewall", "custom/changetheme",  "hyprland/workspaces"],
+  "modules-center": ["memory","cpu","clock"],
   "modules-right": ["pulseaudio", "backlight","network", "battery"],
 
   "custom/changetheme": {
     "format": " ",
     "on-click": "python $HOME/.config/scripts/get_wall_theme.py; python $HOME/.config/scripts/convert_wall_theme.py; python $HOME/.config/scripts/distribute_theme.py; pkill waybar; waybar",
+  },
+
+  "memory": {
+    "format": " {}%"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 1,
   },
 
   "custom/changewall": {
@@ -47,7 +56,7 @@
   },
 
   "clock": {
-    "format": "{:%A %I:%M %p}",
+    "format": "{:%A %d, %I:%M %p}",
     "format-alt": "{:%F 󰃭 }",
     "tooltip-format": "<tt>{calendar}</tt>",
     "calendar": {

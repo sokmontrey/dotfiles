@@ -16,7 +16,9 @@ window#waybar {
 #tray,
 #custom-launcher,
 #custom-changewall,
-#custom-changetheme
+#custom-changetheme,
+#memory,
+#cpu
 {
   background: @primary-background;
   color: @primary-foreground;
@@ -24,6 +26,11 @@ window#waybar {
   margin-bottom: 0px;
   border-radius: 10px;
   margin: 4px;
+}
+
+#clock {
+  background: @bright-green;
+  color: @primary-background;
 }
 
 #custom-launcher {
