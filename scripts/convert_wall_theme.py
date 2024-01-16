@@ -8,7 +8,9 @@ raw_theme_file = open(theme_path + 'raw_wall_theme.json', 'r')
 raw_wall_theme = json.load(raw_theme_file)
 
 wall_theme = {}
-wall_theme['primary'] = raw_wall_theme['special']
+wall_theme['primary'] = {}
+wall_theme['primary']['background'] = raw_wall_theme['special']['background']
+wall_theme['primary']['foreground'] = raw_wall_theme['special']['foreground']
 wall_theme['normal'] = {}
 wall_theme['bright'] = {}
 
