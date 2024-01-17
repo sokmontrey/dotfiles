@@ -21,13 +21,12 @@ configuration {
 @theme "./theme.rasi"
 
 window {
-  width: 900px;
+  width: 500px;
   height: 500px;
   cursor: "default";
   spacing: 0px;
   padding: 0px;
-  border: 2px;
-  border-radius: 40px;
+  border-radius: 10px;
   border-color: @primary-foreground;
   background-color: transparent;
 }
@@ -35,17 +34,15 @@ window {
 mainbox {
   enabled: true;
   spacing: 0px;
-  orientation: horizontal;
-  children: [  "listbox", "inputbar" ];
+  orientation: vertical;
+  children: [ "inputbar", "listbox" ];
   background-color: transparent;
 }
 
 inputbar {
   enabled: true;
-  width: 500px;
   children: [ "entry" ];
-  background-color: transparent;
-  background-image: url("~/download/wallpaper/14.png", height);
+  background-color: @normal-blue;
 }
 
 entry {
