@@ -90,8 +90,7 @@ element {
 }
 
 element selected.normal {
-  background-color: @primary-foreground;
-  text-color: @primary-background;
+  background-color: @bright-black;
 }
 
 element-icon {
