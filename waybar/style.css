@@ -13,7 +13,6 @@ window#waybar {
 #backlight,
 #pulseaudio,
 #clock,
-#tray,
 #custom-launcher,
 #custom-changewall,
 #custom-changetheme,
@@ -24,22 +23,45 @@ window#waybar {
   background: @primary-background;
   color: @primary-foreground;
   padding: 6px 15px;
-  margin-bottom: 0px;
-  border-radius: 10px;
-  margin: 4px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-size: 15px;
 }
 
 #clock {
-  background: @bright-green;
-  color: @primary-background;
+  font-weight: bold;
+  background: @primary-background;
+  color: @bright-green;
 }
 
 #custom-launcher {
-  background: @normal-blue;
-  color: @primary-background;
+  background: @primary-background;
+  color: @normal-blue;
   padding: 0px 10px;
   padding-left: 13px;
   font-size: 15px;
+  margin-left: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#pulseaudio {
+  color: @bright-green;
+}
+
+#backlight{
+  color: @normal-yellow;
+}
+
+#memory, #pulseaudio{
+  border-radius: 10px 0px 0px 10px;
+}
+
+#custom-screenshot, #clock, #battery{
+  border-radius: 0px 10px 10px 0px;
+}
+
+#battery {
+  margin-right: 50px;
 }
 
 #workspaces {

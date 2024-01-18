@@ -8,7 +8,8 @@
 
   "custom/changetheme": {
     "format": " ",
-    "on-click": "python $HOME/.config/scripts/get_wall_theme.py; python $HOME/.config/scripts/convert_wall_theme.py; python $HOME/.config/scripts/distribute_theme.py; pkill waybar; waybar",
+    "on-click": "python $HOME/.config/scripts/get_wall_theme.py && python $HOME/.config/scripts/convert_wall_theme.py && python $HOME/.config/scripts/distribute_theme.py && pkill waybar && waybar",
+    "on-click-right": "python $HOME/.config/scripts/use_custom_theme.py && python $HOME/.config/scripts/distribute_theme.py && pkill waybar && waybar",
   },
 
   "custom/screenshot": {
